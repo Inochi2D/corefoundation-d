@@ -1,0 +1,24 @@
+name "corefoundation-d"
+description "D bindings for the Core Foundation API"
+authors "Inochi2D Project"
+copyright "Copyright © 2024, Inochi2D Project"
+license "BSD-2-Clause"
+
+dependency "objective-d" version="~>1.0" optional=true
+
+# Only LDC and DMD is supported currently.
+toolchainRequirements gdc="no"
+targetPath "out/"
+
+# Default configuration.
+configuration "static" {
+    platforms "osx" "ios" "tvos" "watchos" "visionos"
+    targetType "library"
+    lflags "-framework" "CoreFoundation"
+}
+
+# For platforms that don't support it.
+configuration "other_platforms" {
+    targetType "none"
+}
+
