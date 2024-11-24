@@ -16,8 +16,7 @@ import corefoundation.cfallocator;
 import corefoundation.cflocale;
 import corefoundation.cfdata;
 import corefoundation;
-import foundation;
-import objc;
+import objc.basetypes;
 
 extern(C) @nogc nothrow:
 
