@@ -9,6 +9,7 @@
     Core Foundation Type Definitions
 */
 module corefoundation.types;
+import corefoundation.core;
 
 /**
     A type for unique, constant integer values that identify particular Core Foundation opaque types.

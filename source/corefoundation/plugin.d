@@ -111,7 +111,7 @@ extern void CFPlugInRemoveInstanceForFactory(CFUUIDRef factoryID);
     Enables or disables load on demand for plug-ins that do dynamic registration 
     (only when a client requests an instance of a supported type).
 */
-extern void CFPlugInSetLoadOnDemand(CFPlugInRef plugIn, Boolean flag);
+extern void CFPlugInSetLoadOnDemand(CFPlugInRef plugIn, bool flag);
 
 /**
     Used to statically register the factories that can create each supported type.

@@ -10,9 +10,9 @@
 */
 module corefoundation;
 
+public import corefoundation.core;
 public import corefoundation.allocator;
 public import corefoundation.array;
-public import corefoundation.base;
 public import corefoundation.byteorder;
 public import corefoundation.charset;
 public import corefoundation.data;
@@ -22,9 +22,11 @@ public import corefoundation.cfnull;
 public import corefoundation.preferences;
 public import corefoundation.string;
 public import corefoundation.types;
+public import corefoundation.bundle;
 public import corefoundation.plugin;
 public import corefoundation.uuid;
 public import corefoundation.url;
+public import corefoundation.error;
 
 /**
     The current version of the Core Foundation framework
