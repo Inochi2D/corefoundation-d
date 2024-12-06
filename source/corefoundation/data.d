@@ -4,8 +4,9 @@
     
     Authors: Luna Nielsen
 */
-
-module corefoundation.cfpreferences;
-import corefoundation.cftypes;
+module corefoundation.data;
+import corefoundation;
 
 extern(C) @nogc nothrow:
+
+alias CFDataRef = CFTypeRef;

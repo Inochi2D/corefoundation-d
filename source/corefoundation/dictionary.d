@@ -8,9 +8,9 @@
 /**
     CFDictionary
 */
-module corefoundation.cfdictionary;
-import corefoundation.cfallocator;
-import corefoundation.cfstring;
+module corefoundation.dictionary;
+import corefoundation.allocator;
+import corefoundation.string;
 import corefoundation;
 
 extern(C) @nogc nothrow:

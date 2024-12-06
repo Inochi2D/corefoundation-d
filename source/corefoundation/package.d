@@ -10,5 +10,15 @@
 */
 module corefoundation;
 
-public import corefoundation.cftypes;
-public import corefoundation.cfbase;
+public import corefoundation.allocator;
+public import corefoundation.array;
+public import corefoundation.base;
+public import corefoundation.byteorder;
+public import corefoundation.charset;
+public import corefoundation.data;
+public import corefoundation.dictionary;
+public import corefoundation.locale;
+public import corefoundation.cfnull;
+public import corefoundation.preferences;
+public import corefoundation.string;
+public import corefoundation.types;

@@ -5,8 +5,8 @@
     Authors: Luna Nielsen
 */
 
-module corefoundation.cfallocator;
-import corefoundation.cfstring;
+module corefoundation.allocator;
+import corefoundation.string;
 import corefoundation;
 
 /**

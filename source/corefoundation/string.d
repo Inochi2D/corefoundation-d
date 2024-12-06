@@ -8,13 +8,13 @@
 /**
     CFString
 */
-module corefoundation.cfstring;
-import corefoundation.cfdictionary;
-import corefoundation.cfarray;
-import corefoundation.cfcharacterset;
-import corefoundation.cfallocator;
-import corefoundation.cflocale;
-import corefoundation.cfdata;
+module corefoundation.string;
+import corefoundation.dictionary;
+import corefoundation.array;
+import corefoundation.charset;
+import corefoundation.allocator;
+import corefoundation.locale;
+import corefoundation.data;
 import corefoundation;
 import objc.basetypes;
 

@@ -4,8 +4,8 @@
     
     Authors: Luna Nielsen
 */
-module corefoundation.cfbyteorder;
-import corefoundation.cftypes;
+module corefoundation.byteorder;
+import corefoundation.types;
 
 extern(C) @nogc nothrow:
 

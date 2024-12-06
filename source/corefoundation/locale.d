@@ -4,9 +4,10 @@
     
     Authors: Luna Nielsen
 */
-module corefoundation.cfcharacterset;
+module corefoundation.locale;
 import corefoundation;
 
 extern(C) @nogc nothrow:
 
-alias CFCharacterSetRef = CFTypeRef;
+alias CFLocaleRef = CFTypeRef;
+

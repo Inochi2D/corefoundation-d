@@ -8,7 +8,7 @@
 /**
     Core Foundation Type Definitions
 */
-module corefoundation.cftypes;
+module corefoundation.types;
 
 extern(C) @nogc nothrow:
 

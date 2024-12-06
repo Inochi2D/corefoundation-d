@@ -4,10 +4,8 @@
     
     Authors: Luna Nielsen
 */
-module corefoundation.cflocale;
-import corefoundation;
+
+module corefoundation.preferences;
+import corefoundation.types;
 
 extern(C) @nogc nothrow:
-
-alias CFLocaleRef = CFTypeRef;
-

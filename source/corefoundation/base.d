@@ -8,10 +8,10 @@
 /**
     Core Foundation Base APIs
 */
-module corefoundation.cfbase;
-import corefoundation.cfallocator;
-import corefoundation.cfstring;
-import corefoundation.cftypes;
+module corefoundation.base;
+import corefoundation.allocator;
+import corefoundation.string;
+import corefoundation.types;
 
 extern(C) @nogc nothrow:
 

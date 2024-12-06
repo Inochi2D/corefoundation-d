@@ -8,9 +8,9 @@
 /**
     CFArray
 */
-module corefoundation.cfarray;
-import corefoundation.cfallocator;
-import corefoundation.cfstring;
+module corefoundation.array;
+import corefoundation.allocator;
+import corefoundation.string;
 import corefoundation;
 
 extern(C) @nogc nothrow:

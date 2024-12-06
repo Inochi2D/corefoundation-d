@@ -4,9 +4,9 @@
     
     Authors: Luna Nielsen
 */
-module corefoundation.cfdata;
+module corefoundation.charset;
 import corefoundation;
 
 extern(C) @nogc nothrow:
 
-alias CFDataRef = CFTypeRef;
+alias CFCharacterSetRef = CFTypeRef;
