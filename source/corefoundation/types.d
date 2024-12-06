@@ -10,17 +10,6 @@
 */
 module corefoundation.types;
 
-extern(C) @nogc nothrow:
-
-/**
-    An untyped "generic" reference to any Core Foundation object.
-*/
-struct CFTypeRef {
-nothrow @nogc:
-    void* isa;
-    alias isa this;
-}
-
 /**
     A type for unique, constant integer values that identify particular Core Foundation opaque types.
 */
@@ -58,6 +47,12 @@ alias CFAbsoluteTime = CFTimeInterval;
     CFArray, and CFDictionary.
 */
 alias CFPropertyListRef = CFTypeRef;
+
+/**
+    Callback function that compares two values. 
+    You provide a pointer to this callback in certain Core Foundation sorting functions.
+*/
+alias CFComparatorFunction = extern(C) CFComparisonResult function(const(void)* val1, const(void)* val2, void* context);
 
 /**
     Result of a comparison.
